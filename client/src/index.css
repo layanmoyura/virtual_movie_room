@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cinema-bg text-gray-200 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+
+  /* Custom Cinema Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080B10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #232F46;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B82F6;
+  }
+}
+
+.cinema-glow {
+  box-shadow: 0 0 30px -5px rgba(59, 130, 246, 0.25);
+}
+
+.cinema-card {
+  @apply bg-cinema-card border border-cinema-border rounded-xl;
+}
