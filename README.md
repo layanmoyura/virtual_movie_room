@@ -1,5 +1,7 @@
 # Virtual Movie Room 🎬🍿
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-layanmoyura%2Fvirtual__movie__room-blue?logo=github)](https://github.com/layanmoyura/virtual_movie_room)
+
 A lightweight, no-login, ephemeral watch-party web application. Users can create temporary rooms, share invite links or short codes, paste media URLs, and watch together using synchronized playback modes, room chat, and browser-tab sharing.
 
 ---
