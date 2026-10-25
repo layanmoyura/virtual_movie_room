@@ -112,7 +112,8 @@ For more details, see [SECURITY.md](file:///c:/Users/acer/Downloads/virtual_movi
 
 ## 📖 Further Documentation
 
-- [NO_CARD_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/NO_CARD_HOSTING_GUIDE.md) - 100% Free hosting on Hugging Face Spaces (0 credit card required, 16 GB RAM).
+- [TECH_PROCESS_EXPLAINED.md](file:///c:/Users/acer/Downloads/virtual_movie_room/TECH_PROCESS_EXPLAINED.md) - Complete end-to-end technical architecture & sync mathematics guide.
+- [NO_CARD_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/NO_CARD_HOSTING_GUIDE.md) - 100% Free hosting on Back4App Containers & Zeabur.
 - [FREE_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/FREE_HOSTING_GUIDE.md) - Step-by-step guide to hosting on Render.
 - [ARCHITECTURE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/ARCHITECTURE.md) - System architecture, state machine, and sync algorithm.
 - [API_SPEC.md](file:///c:/Users/acer/Downloads/virtual_movie_room/API_SPEC.md) - Complete WebSocket message protocol and payload specifications.
