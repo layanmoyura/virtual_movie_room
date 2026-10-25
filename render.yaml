@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: virtual-movie-room
+    runtime: docker
+    plan: free
+    region: singapore
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    healthCheckPath: /health

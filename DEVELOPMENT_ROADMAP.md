@@ -89,6 +89,8 @@ This roadmap tracks implementation progress across all development milestones. I
 - [x] Create multi-stage `Dockerfile` (non-root `node` user, minimal Alpine image)
 - [x] Create `.dockerignore`
 - [x] Create `docker-compose.yml` for local container testing & VPS hosting
+- [x] Create `render.yaml` infrastructure blueprint (Singapore region, Free tier, Docker runtime)
+- [x] Create `FREE_HOSTING_GUIDE.md` with step-by-step 1-click free hosting instructions
 - [x] Create `.github/workflows/ci.yml` (lint, typecheck, test, build)
 - [x] Create `.github/workflows/deploy.yml` (multi-platform container build & push)
 

@@ -1,6 +1,7 @@
 # Virtual Movie Room 🎬🍿
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-layanmoyura%2Fvirtual__movie__room-blue?logo=github)](https://github.com/layanmoyura/virtual_movie_room)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/layanmoyura/virtual_movie_room)
 
 A lightweight, no-login, ephemeral watch-party web application. Users can create temporary rooms, share invite links or short codes, paste media URLs, and watch together using synchronized playback modes, room chat, and browser-tab sharing.
 
@@ -111,6 +112,7 @@ For more details, see [SECURITY.md](file:///c:/Users/acer/Downloads/virtual_movi
 
 ## 📖 Further Documentation
 
+- [FREE_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/FREE_HOSTING_GUIDE.md) - Step-by-step guide to hosting $0 free on Render.
 - [ARCHITECTURE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/ARCHITECTURE.md) - System architecture, state machine, and sync algorithm.
 - [API_SPEC.md](file:///c:/Users/acer/Downloads/virtual_movie_room/API_SPEC.md) - Complete WebSocket message protocol and payload specifications.
 - [SECURITY.md](file:///c:/Users/acer/Downloads/virtual_movie_room/SECURITY.md) - Threat model, rate limiting, and defensive measures.

@@ -95,14 +95,27 @@ docker inspect --format='{{json .State.Health}}' vmr
 
 ## 4. Hosting Platform Guides
 
-### 4.1 Deploying on Render (PaaS)
-1. Fork or push your repository to GitHub.
+### 4.1 Deploying on Render (PaaS - Recommended Free Tier)
+
+> [!TIP]
+> For a step-by-step walkthrough with screenshots, see [FREE_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/FREE_HOSTING_GUIDE.md).
+
+#### Option A: 1-Click Blueprint (Zero Configuration)
+The repository includes a ready-to-use [render.yaml](file:///c:/Users/acer/Downloads/virtual_movie_room/render.yaml) blueprint:
+1. Log into [Render Dashboard](https://dashboard.render.com).
+2. Click **New +** -> **Blueprint**.
+3. Select `layanmoyura/virtual_movie_room`.
+4. Click **Apply** (Render automatically configures the Singapore region, Docker runtime, and `/health` probe for \$0/month).
+
+#### Option B: Manual Web Service Setup
+1. Fork or push your repository to GitHub: `https://github.com/layanmoyura/virtual_movie_room`.
 2. Log into [Render Dashboard](https://dashboard.render.com).
 3. Click **New +** -> **Web Service**.
 4. Select your `virtual_movie_room` repository.
 5. Configure:
-   - **Environment**: `Docker`
-   - **Instance Type**: Free or Starter
+   - **Region**: `Singapore` (or closest region)
+   - **Environment / Runtime**: `Docker`
+   - **Instance Type**: `Free` (\$0/mo)
    - **Health Check Path**: `/health`
 6. Add environment variable: `NODE_ENV=production`.
 7. Click **Deploy Web Service**. Render provides automatic HTTPS, persistent WebSockets, and health checks.
