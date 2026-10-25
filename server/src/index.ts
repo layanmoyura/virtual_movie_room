@@ -13,7 +13,7 @@ import { PlaybackSyncManager } from "./playback-sync.js";
 import { ChatManager } from "./chat-manager.js";
 import { WebRtcBroker } from "./webrtc-broker.js";
 
-const PORT = parseInt(process.env.PORT || "3001", 10);
+const PORT = parseInt(process.env.PORT || "7860", 10);
 const CLIENT_DIST_PATH = join(process.cwd(), "client", "dist");
 
 interface SocketSession {

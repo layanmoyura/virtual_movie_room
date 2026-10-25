@@ -16,8 +16,8 @@ export function useWebSocket() {
     }
 
     const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
-    // In dev, Vite proxies or connects to 3001
-    const host = window.location.port === "5173" ? `${window.location.hostname}:3001` : window.location.host;
+    // In dev, Vite proxies or connects to 7860
+    const host = window.location.port === "5173" ? `${window.location.hostname}:7860` : window.location.host;
     const wsUrl = `${protocol}//${host}`;
 
     const ws = new WebSocket(wsUrl);

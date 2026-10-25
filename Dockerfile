@@ -24,7 +24,7 @@ FROM node:24-alpine AS runner
 WORKDIR /app
 
 ENV NODE_ENV=production
-ENV PORT=3000
+ENV PORT=7860
 
 # Security: Non-root user
 USER node
@@ -38,9 +38,9 @@ COPY --chown=node:node --from=builder /app/server/package*.json ./server/
 COPY --chown=node:node --from=builder /app/server/dist ./server/dist
 COPY --chown=node:node --from=builder /app/client/dist ./client/dist
 
-EXPOSE 3000
+EXPOSE 7860
 
 HEALTHCHECK --interval=30s --timeout=5s --start-period=5s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:3000/health || exit 1
+  CMD wget --no-verbose --tries=1 --spider http://localhost:7860/health || exit 1
 
 CMD ["node", "server/dist/index.js"]

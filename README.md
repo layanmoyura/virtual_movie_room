@@ -112,7 +112,8 @@ For more details, see [SECURITY.md](file:///c:/Users/acer/Downloads/virtual_movi
 
 ## 📖 Further Documentation
 
-- [FREE_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/FREE_HOSTING_GUIDE.md) - Step-by-step guide to hosting $0 free on Render.
+- [NO_CARD_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/NO_CARD_HOSTING_GUIDE.md) - 100% Free hosting on Hugging Face Spaces (0 credit card required, 16 GB RAM).
+- [FREE_HOSTING_GUIDE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/FREE_HOSTING_GUIDE.md) - Step-by-step guide to hosting on Render.
 - [ARCHITECTURE.md](file:///c:/Users/acer/Downloads/virtual_movie_room/ARCHITECTURE.md) - System architecture, state machine, and sync algorithm.
 - [API_SPEC.md](file:///c:/Users/acer/Downloads/virtual_movie_room/API_SPEC.md) - Complete WebSocket message protocol and payload specifications.
 - [SECURITY.md](file:///c:/Users/acer/Downloads/virtual_movie_room/SECURITY.md) - Threat model, rate limiting, and defensive measures.
